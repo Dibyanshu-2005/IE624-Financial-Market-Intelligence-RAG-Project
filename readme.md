@@ -1,6 +1,6 @@
 # Financial Market Intelligence using Temporal-Aware RAG (T-RAG)
 **IE624 — Generative and Agentic AI | IIT Bombay 2026**
-Authors: Dibyanshu Dash, Devesh Rawat, Gaurav
+Authors: Dibyanshu Dash, Devesh Rawat
 
 ---
 
