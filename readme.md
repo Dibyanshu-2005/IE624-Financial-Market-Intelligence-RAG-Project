@@ -23,9 +23,7 @@ Where `α` controls the balance between semantic relevance and temporal recency,
 
 ---
 
-## Is the T-RAG Actually Working?
-
-**Yes, the core T-RAG functionality is working correctly.**
+## How is the T-RAG Actually Working?
 
 The `indexer.py` file implements the time-decay scoring formula exactly as described in the report. You can verify this yourself:
 
@@ -67,7 +65,7 @@ IE624_Project/
 ### 1. Clone the repo and create a virtual environment
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Dibyanshu-2005/IE624-Financial-Market-Intelligence-RAG-Project.git
 cd IE624_Project
 python3 -m venv venv
 source venv/bin/activate
@@ -91,13 +89,6 @@ NEWS_API_KEY=your_newsapi_key_here
 - Get a free Groq key at: https://console.groq.com
 - Get a free NewsAPI key at: https://newsapi.org
 
-### 4. Fix a yfinance cache bug on macOS
-
-In `data_collector.py`, make sure this line exists right after the imports:
-
-```python
-yf.set_tz_cache_location("/tmp/yfinance_cache")
-```
 
 ### 5. Run the app
 
