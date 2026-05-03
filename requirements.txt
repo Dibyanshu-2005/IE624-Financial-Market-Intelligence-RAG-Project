@@ -8,3 +8,8 @@ pandas
 streamlit
 python-dotenv
 requests
+plotly
+vaderSentiment
+transformers
+torch
+praw
